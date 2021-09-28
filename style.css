@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 0%;
+    background: url("./Images/stock-1.jpg") no-repeat center top/cover;
+    font-family: 'Koh Santepheap', 'cursive';
+    
+}
+h1{
+    font-size: 2rem;
+    color: #3f1dd8;
+}
+label{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+input{
+    margin: 1rem auto;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Koh Santepheap', 'cursive';
+   
+}
+
+
+#container{
+    width: 450px;
+	background-color: rgba(255, 255, 255, 0.774);
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	padding: 0 20px 30px;
+	margin: 40px auto;
+}
+#currency{
+    margin: 0.5rem auto;
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    font-family: 'Koh Santepheap', 'cursive';
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#message{
+    color: red;
+    font-weight: bold;
+
+}
+#output{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
