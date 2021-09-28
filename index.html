@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stocks Profit or Loss calculator | Kedar Kulkarni</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Stocks Profit or Loss Calculator</h1>
+      <label for="purchase-price">Enter the Purchase Price of Stocks</label>
+      <input
+        type="number"
+        id="purchase-price"
+        placeholder="Stock Purchase Price "
+        required
+      />
+      <label for="quantity-stocks"
+        >Enter the Quantity of Stocks Purchased
+      </label>
+      <input
+        type="number"
+        id="quantity-stocks"
+        placeholder="Quantity of Stocks"
+        required
+      />
+      <label for="current-price">Enter the Current Price of Stock</label>
+      <input
+        type="number"
+        id="current-price"
+        placeholder="Stock Current Price "
+        required
+      />
+      <label for="currency">Select Currency</label>
+      <select name="currency" id="currency">
+        <option value="₹">₹</option>
+        <option value="$">$</option>
+        <option value="€">€</option>
+        <option value="£">£</option>
+        <option value="¥">¥</option>
+      </select>
+      <div id="output"></div>
+      <p id="message"></p>
+
+      <button id="btn">Calculate</button>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
